@@ -2,6 +2,6 @@
 
 module.exports = function($scope, GuideFactory){
     GuideFactory.getGuides().then(guideData => {
-        $scope.guideList = guideData.data.guideList;
+        $scope.guideList = guideData.data.guides;
     });
 };
