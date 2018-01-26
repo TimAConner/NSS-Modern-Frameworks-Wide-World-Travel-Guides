@@ -1,5 +1,5 @@
 'use strict';
-const app = require('angular').module("testApp");
+const app = require('angular').module("wwtgApp");
 
 // Add factories below
-app.factory('HomeFactory', require('./HomeFactory'));
+app.factory('GuideFactory', require('./GuideFactory'));

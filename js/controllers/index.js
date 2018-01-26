@@ -1,6 +1,6 @@
 "use strict";
 
-const app = require('angular').module("testApp");
+const app = require('angular').module("wwtgApp");
 
 // Add controls below
-app.controller('HomeCtrl', require('./HomeCtrl'));
+app.controller('GuideCtrl', require('./GuideCtrl'));
